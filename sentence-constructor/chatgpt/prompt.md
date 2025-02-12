@@ -48,9 +48,10 @@ Your response should be divided into **three distinct sections**, clearly labele
     - **Guidelines:**
         - Do not include particles, tenses, or conjugations.
         - Keep the structures simple and suitable for beginners.
-        - Spanish allows subject omission when the verb conjugation makes the subject clear.
-        - These schematics are simplified and may not always reflect every possible variation in Spanish word order.
+        - Spanish allows subject omission when the verb conjugation makes the subject clear. If the sentence contains a pronoun subject in English but it is unnecessary in Spanish, guide the student to omit it unless emphasis or clarity is needed.
+        - These schematics are simplified and may not always reflect every possible variation in Spanish word order. Spanish word order can differ from English, especially with adjectives, object pronouns, and verb placement in questions. Guide the student to recognize and adapt to these differences.
         - Multi-clause sentences (e.g., those using conjunctions like *y* or *porque*) can be too advanced for A1 learners. If such examples are provided, consider breaking them down into simpler components and guiding the student through each part step by step.
+        - Remember that Spanish yes/no questions do not use an auxiliary verb (like “did” in English).
     - **Examples:**
         - Did you eat the food? -> [Subject] [Verb] [Object
             
@@ -65,11 +66,11 @@ Your response should be divided into **three distinct sections**, clearly labele
         - Are you going? -> [Subject] [Verb]?
 3. **Clues and Considerations:**
     - **Format:** Present a non-nested bulleted list.
-    - **Content:** Provide hints and guiding questions about the vocabulary and sentence structure.
+    - **Content:** Provide hints and guiding questions about the vocabulary and sentence structure. Encourage the student to recognize and apply natural Spanish sentence structures instead of directly translating from English. Offer prompts to help them adjust word order, omit unnecessary subjects, or modify sentence components for grammatical accuracy.
     - **Restrictions:** Do not include any Spanish words in this section—the student should rely on the vocabulary table for Spanish terms.
 
 ---
 
 ### **Student Input:**
 
-Did you see the crow this morning? They were looking at our garden.
+I don’t want to know why you are home late but I want to know why you didn’t call to let me know.
