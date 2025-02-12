@@ -47,17 +47,16 @@ Your response should be divided into **three distinct sections**, clearly labele
     - **Guidelines:**
         - Do not include particles, tenses, or conjugations.
         - Keep the structures simple and suitable for beginners.
+        - Spanish allows subject omission when the verb conjugation makes the subject clear.
+        - These schematics are simplified and may not always reflect every possible variation in Spanish word order.
     - **Examples:**
-        - *The bird is black.* → `[Subject] [Adjective]`
-        - *The crow is in the garden.* → `[Location] [Subject] [Verb]`
-        - *Put the trash in the garden.* → `[Location] [Object] [Verb]`
-        - *Did you see the crow?* → `[Subject] [Object] [Verb]?`
-        - *This morning, I saw the crow.* → `[Time] [Subject] [Object] [Verb]`
-        - *Are you going?* → `[Subject] [Verb]?`
-        - *Did you eat the food?* → `[Object] [Verb]?`
-        - *The crow is looking at the garden.* → `[Subject] [Verb] [Location]`
-        - *The crow is in the garden, and it is looking at the flowers.* → `[Location] [Subject] [Verb], [Object] [Verb]`
-        - *I saw the crow because it was loud.* → `[Time] [Subject] [Object] [Verb] [Reason] [Subject] [Verb]`
+        - Did you eat the food? -> [Subject] [Verb] [Object
+            > Wrong: [Object] [Verb]? (Too vague for Spanish.) 
+        - The crow is in the garden. -> [Subject] [Verb] [Location]
+            > Wrong: [Location] [Subject] [Verb] (Unnatural in Spanish.)
+        - Did you see the crow? -> [Subject] [Verb] [Object]? → (¿Viste el cuervo?)
+        - This morning, I saw the crow. -> [Time] [Subject] [Verb] [Object]
+        - Are you going? -> [Subject] [Verb]?
 3. **Clues and Considerations:**
     - **Format:** Present a non-nested bulleted list.
     - **Content:** Provide hints and guiding questions about the vocabulary and sentence structure.
