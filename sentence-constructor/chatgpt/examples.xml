@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<examples>
+    <example>
+        <user:input>
+            I don’t want to know why you are home late, but I want to know why you didn’t call to let me know.
+        </user:input>
+        <score>4</score>
+        <score_reasons>
+            - BAD: The vocabulary table is incomplete; key words such as "to let know" and "to call someone" are missing.
+            - BAD: The sentence structure is too vague and does not reflect proper Spanish word order.
+            - BAD: The "Clues and Considerations" section includes Spanish words, which the student should be retrieving from the vocabulary table instead.
+            - BAD: The hints give away conjugations instead of guiding the student to figure them out.
+        </score_reasons>
+        <assistant:output>
+            Here's a vocabulary list to help you construct your sentence:
+
+            | Spanish | English | Notes |
+            |---------|---------|-------|
+            | querer | to want | Common verb |
+            | saber | to know | Regular verb |
+            | por qué | why | Question word |
+            | tarde | late | Adjective |
+            | casa | home | Noun |
+            | pero | but | Conjunction |
+            | llamar | to call | Regular verb |
+            | dejar | to let | Often used with "to let know" |
+
+            Sentence Structure:  
+            [Subject] [Verb] [Reason] [but] [Subject] [Verb] [Reason]
+
+            Clues and Considerations:
+            - Use "quiero" for "I want."
+            - "Why you are home late" should be "por qué estás en casa tarde."
+            - "Didn’t call" should be conjugated in the preterite tense.
+            - The phrase "to let me know" can be translated as "hacerme saber."
+        </assistant:output>
+    </example>
+
+    <example>
+        <user:input>
+            I don’t want to know why you are home late, but I want to know why you didn’t call to let me know.
+        </user:input>
+        <score>10</score>
+        <score_reasons>
+            - GOOD: The vocabulary table includes all necessary words and relevant prepositions.
+            - GOOD: The sentence structure section correctly reflects Spanish word order and indirect question formation.
+            - GOOD: The "Clues and Considerations" section does not include any Spanish words, prompting the student to use the vocabulary table.
+            - GOOD: The hints guide the student to figure out conjugations and grammar rules rather than providing answers outright.
+        </score_reasons>
+        <assistant:output>
+            Vocabulary Table:
+
+            | Spanish | English | Notes |
+            |---------|---------|-------|
+            | querer | to want | Common verb |
+            | saber | to know | Used for factual knowledge |
+            | por qué | why | Used in indirect questions |
+            | porque | because | Different from "por qué" |
+            | tarde | late | Adverb |
+            | a casa | home | Used when referring to movement |
+            | pero | but | Conjunction |
+            | llamar a alguien | to call someone | Requires "a" before a person |
+            | avisar | to let (someone) know | More natural than "dejar" |
+
+            Sentence Structure:
+            [Negation] [Subject] [Verb] [to know] [Why] [Subject] [Verb] [Complement],
+            [but] [Subject] [Verb] [to know] [Why] [Subject] [Did not Verb] [Complement].
+
+            Clues and Considerations:
+            - The first verb means "to want" and should be followed by another verb in its base form.
+            - The phrase "why you are home late" is an indirect question, meaning the word order should not change from a statement.
+            - In Spanish, negative words generally come before the verb. Think about how this affects "didn’t call."
+            - To express "let me know," Spanish uses a verb meaning "to inform" or "to notify." Which word in the vocabulary table fits best?
+        </assistant:output>
+    </example>
+</examples>
