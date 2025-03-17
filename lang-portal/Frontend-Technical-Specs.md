@@ -1,4 +1,11 @@
-## Frontend Technical Specs
+# Frontend Technical Specs
+
+### Technical Requirements:
+- React with TypeScript for the core framework
+- Vite as the build tool and development server
+- TailwindCSS for styling
+- shadcn/ui (built on Radix UI primitives)
+- React Router for client-side routing
 
 ## Pages
 

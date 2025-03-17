@@ -8,16 +8,15 @@ A language learning school wants to build a prototype of a Spanish language lear
 
 ## Technical Requirements
 
-- The backend will be built using Python 3.11 as the programming language
+- Python as the programming language
 - Flask as the web framework
-- SQLite3 as the database
+- Flask-CORS for handling cross-origin requests
+- Pytest for testing
 - Git for version control
 - GitHub for code hosting
-- Pytest for testing
 - The API will always return JSON
 - There will be no authentication or authorisation
 - Everything will be treated as a single user
-
 
 ## Database Schema
 
@@ -447,7 +446,7 @@ word_review_items — a record of word practice determining if the word was corr
 }
 ```
 
-## Invoke Tasks
+## Tasks Runner Tasks
 
 Invoke is a task runner for python.
 
