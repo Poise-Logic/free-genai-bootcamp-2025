@@ -286,6 +286,38 @@ word_review_items — a record of word practice determining if the word was corr
 }
 ```
 
+### GET /groups/:id/words/raw
+- Returns the raw data for all words in a specific group without pagination
+- Includes complete word data including parsed parts field
+
+#### JSON Response:
+```json
+{
+  "words": [
+    {
+      "id": 1,
+      "spanish": "hablar",
+      "english": "to speak",
+      "parts": {
+        "stem": "habl",
+        "ending": "ar",
+        "type": "regular verb"
+      }
+    },
+    {
+      "id": 2,
+      "spanish": "comer",
+      "english": "to eat",
+      "parts": {
+        "stem": "com",
+        "ending": "er",
+        "type": "regular verb"
+      }
+    }
+  ]
+}
+```
+
 ### GET /api/groups/:id/study_sessions
 - list of study sessions associated with the group
 
@@ -415,6 +447,40 @@ word_review_items — a record of word practice determining if the word was corr
 {
   "success": true,
   "message": "Database has been reset and seeded with initial data",
+}
+```
+
+### POST /api/study_sessions/:id/review
+- Creates multiple word review entries in batch for a specific study session
+- Allows submitting reviews for multiple words at once
+
+#### Required Params:
+- id (study_session_id) integer
+
+#### Request Payload:
+```json
+{
+  "reviews": [
+    {
+      "word_id": 1,
+      "is_correct": true
+    },
+    {
+      "word_id": 2,
+      "is_correct": false
+    }
+  ]
+}
+```
+
+#### JSON Response:
+```json
+{
+  "success": true,
+  "message": "Reviews submitted successfully",
+  "study_session_id": 123,
+  "review_count": 2,
+  "created_at": "2025-03-18T10:51:37Z"
 }
 ```
 

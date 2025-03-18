@@ -208,7 +208,90 @@ def load(app):
     except Exception as e:
       return jsonify({"error": str(e)}), 500
 
-  # todo POST /api/study_sessions/:id/review
+  @app.route('/api/study_sessions/<id>/review', methods=['POST'])
+  @cross_origin()
+  def batch_submit_reviews(id):
+    """
+    Endpoint to submit multiple word reviews for a study session in batch.
+    
+    Args:
+        id: The study session ID
+        
+    Request Body:
+        {
+            "reviews": [
+                {
+                    "word_id": 1,
+                    "is_correct": true
+                },
+                {
+                    "word_id": 2,
+                    "is_correct": false
+                }
+            ]
+        }
+    
+    Returns:
+        JSON response with success status, message, study session ID, 
+        review count, and creation timestamp
+    """
+    try:
+      # Get and validate the request data
+      data = request.get_json()
+      
+      # Verify study session exists
+      cursor = app.db.cursor()
+      cursor.execute('SELECT id FROM study_sessions WHERE id = ?', (id,))
+      session = cursor.fetchone()
+      
+      if not session:
+        return jsonify({"error": f"Study session with id {id} not found"}), 404
+      
+      # Validate request payload
+      if not data or 'reviews' not in data or not isinstance(data['reviews'], list):
+        return jsonify({"error": "Invalid request format. 'reviews' array is required"}), 400
+      
+      if not data['reviews']:
+        return jsonify({"error": "Reviews array cannot be empty"}), 400
+      
+      # Create word review items
+      current_time = datetime.now().strftime('%Y-%m-%dT%H:%M:%SZ')
+      reviews_count = 0
+      
+      for review in data['reviews']:
+        # Validate review object
+        if 'word_id' not in review or 'is_correct' not in review:
+          return jsonify({"error": "Each review must have 'word_id' and 'is_correct' fields"}), 400
+        
+        word_id = review['word_id']
+        is_correct = review['is_correct']
+        
+        # Verify word exists
+        cursor.execute('SELECT id FROM words WHERE id = ?', (word_id,))
+        word = cursor.fetchone()
+        
+        if not word:
+          return jsonify({"error": f"Word with id {word_id} not found"}), 404
+        
+        # Insert review record
+        cursor.execute(
+          'INSERT INTO word_review_items (word_id, study_session_id, correct, created_at) VALUES (?, ?, ?, ?)',
+          (word_id, id, 1 if is_correct else 0, current_time)
+        )
+        reviews_count += 1
+      
+      app.db.commit()
+      
+      return jsonify({
+        "success": True,
+        "message": "Reviews submitted successfully",
+        "study_session_id": int(id),
+        "review_count": reviews_count,
+        "created_at": current_time
+      }), 201
+      
+    except Exception as e:
+      return jsonify({"error": str(e)}), 500
 
   @app.route('/api/study_sessions/reset', methods=['POST'])
   @cross_origin()

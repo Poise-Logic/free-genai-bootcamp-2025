@@ -68,6 +68,37 @@ def init_test_database(app):
     )
     ''')
     
+    conn.execute('''
+    CREATE TABLE IF NOT EXISTS study_activities (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      name TEXT NOT NULL,
+      url TEXT NOT NULL
+    )
+    ''')
+    
+    conn.execute('''
+    CREATE TABLE IF NOT EXISTS study_sessions (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      group_id INTEGER NOT NULL,
+      study_activity_id INTEGER NOT NULL,
+      created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+      FOREIGN KEY (group_id) REFERENCES groups(id),
+      FOREIGN KEY (study_activity_id) REFERENCES study_activities(id)
+    )
+    ''')
+    
+    conn.execute('''
+    CREATE TABLE IF NOT EXISTS word_review_items (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      word_id INTEGER NOT NULL,
+      study_session_id INTEGER NOT NULL,
+      correct BOOLEAN NOT NULL,
+      created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+      FOREIGN KEY (word_id) REFERENCES words(id),
+      FOREIGN KEY (study_session_id) REFERENCES study_sessions(id)
+    )
+    ''')
+    
     # Insert test data
     # Add a group
     conn.execute("INSERT INTO groups (name, words_count) VALUES (?, ?)", 
@@ -97,6 +128,17 @@ def init_test_database(app):
     # Add an empty group for testing
     conn.execute("INSERT INTO groups (name, words_count) VALUES (?, ?)", 
                  ("Empty Group", 0))
+    
+    # Add study activities
+    conn.execute("INSERT INTO study_activities (name, url) VALUES (?, ?)",
+                ("Flashcards", "http://example.com/flashcards"))
+    
+    conn.execute("INSERT INTO study_activities (name, url) VALUES (?, ?)",
+                ("Quiz", "http://example.com/quiz"))
+    
+    # Add a study session
+    conn.execute("INSERT INTO study_sessions (id, group_id, study_activity_id, created_at) VALUES (?, ?, ?, ?)",
+                (1, 1, 1, "2025-03-18T10:00:00Z"))
     
     conn.commit()
     conn.close()

@@ -1,7 +1,7 @@
 ## Setting up the database
 
 ```sh
-invoke init-db
+uv run -m invoke init-db
 ```
 
 This will do the following:
@@ -18,7 +18,7 @@ Simply delete the `words.db` to clear entire database.
 ## Running the backend api
 
 ```sh
-python app.py 
+uv run app.py 
 ```
 
 This should start the flask app on port `5000`
