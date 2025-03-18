@@ -4,9 +4,66 @@ from datetime import datetime
 import math
 
 def load(app):
-  # todo /study_sessions POST
+  # Implementation of POST /api/study_sessions endpoint
+  @app.route('/api/study_sessions', methods=['POST'])
+  @cross_origin()
+  def create_study_session():
+    try:
+      # Get and validate required parameters
+      data = request.get_json()
+      
+      if not data:
+        return jsonify({"error": "No data provided"}), 400
+      
+      if 'group_id' not in data:
+        return jsonify({"error": "group_id is required"}), 400
+      
+      if 'study_activity_id' not in data:
+        return jsonify({"error": "study_activity_id is required"}), 400
+      
+      group_id = data['group_id']
+      study_activity_id = data['study_activity_id']
+      
+      # Validate that group exists
+      cursor = app.db.cursor()
+      cursor.execute('SELECT id FROM groups WHERE id = ?', (group_id,))
+      group = cursor.fetchone()
+      
+      if not group:
+        return jsonify({"error": f"Group with id {group_id} not found"}), 404
+      
+      # Validate that study activity exists
+      cursor.execute('SELECT id FROM study_activities WHERE id = ?', (study_activity_id,))
+      activity = cursor.fetchone()
+      
+      if not activity:
+        return jsonify({"error": f"Study activity with id {study_activity_id} not found"}), 404
+      
+      # Create a new study session
+      current_time = datetime.now().strftime('%Y-%m-%dT%H:%M:%SZ')
+      
+      cursor.execute(
+        'INSERT INTO study_sessions (group_id, study_activity_id, created_at) VALUES (?, ?, ?)',
+        (group_id, study_activity_id, current_time)
+      )
+      
+      session_id = cursor.lastrowid
+      app.db.commit()
+      
+      # Return the created study session
+      return jsonify({
+        "study_session": {
+          "id": session_id,
+          "group_id": group_id,
+          "study_activity_id": study_activity_id,
+          "created_at": current_time
+        }
+      }), 201
+    except Exception as e:
+      # Error handling without rollback since it's not supported
+      return jsonify({"error": str(e)}), 500
 
-  @app.route('/api/study-sessions', methods=['GET'])
+  @app.route('/api/study_sessions', methods=['GET'])
   @cross_origin()
   def get_study_sessions():
     try:
@@ -65,7 +122,7 @@ def load(app):
     except Exception as e:
       return jsonify({"error": str(e)}), 500
 
-  @app.route('/api/study-sessions/<id>', methods=['GET'])
+  @app.route('/api/study_sessions/<id>', methods=['GET'])
   @cross_origin()
   def get_study_session(id):
     try:
@@ -151,9 +208,9 @@ def load(app):
     except Exception as e:
       return jsonify({"error": str(e)}), 500
 
-  # todo POST /study_sessions/:id/review
+  # todo POST /api/study_sessions/:id/review
 
-  @app.route('/api/study-sessions/reset', methods=['POST'])
+  @app.route('/api/study_sessions/reset', methods=['POST'])
   @cross_origin()
   def reset_study_sessions():
     try:
