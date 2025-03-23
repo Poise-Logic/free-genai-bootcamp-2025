@@ -44,8 +44,8 @@ def init_test_database(app):
     conn.execute('''
     CREATE TABLE IF NOT EXISTS words (
       id INTEGER PRIMARY KEY AUTOINCREMENT,
-      kanji TEXT NOT NULL,
-      romaji TEXT NOT NULL,
+      spanish TEXT NOT NULL,
+      pronunciation TEXT NOT NULL,
       english TEXT NOT NULL,
       parts TEXT NOT NULL
     )
@@ -106,20 +106,20 @@ def init_test_database(app):
     
     # Add words with parts as JSON
     word1_parts = json.dumps([
-        {"kanji": "払", "romaji": ["ha", "ra"]},
-        {"kanji": "う", "romaji": ["u"]}
+        {"spanish": "pag", "pronunciation": ["pah", "g"]},
+        {"spanish": "ar", "pronunciation": ["ar"]}
     ])
     
     word2_parts = json.dumps([
-        {"kanji": "行", "romaji": ["i"]},
-        {"kanji": "く", "romaji": ["ku"]}
+        {"spanish": "i", "pronunciation": ["ee"]},
+        {"spanish": "r", "pronunciation": ["r"]}
     ])
     
-    conn.execute("INSERT INTO words (kanji, romaji, english, parts) VALUES (?, ?, ?, ?)",
-                 ("払う", "harau", "to pay", word1_parts))
+    conn.execute("INSERT INTO words (spanish, pronunciation, english, parts) VALUES (?, ?, ?, ?)",
+                 ("pagar", "pah-GAR", "to pay", word1_parts))
     
-    conn.execute("INSERT INTO words (kanji, romaji, english, parts) VALUES (?, ?, ?, ?)",
-                 ("行く", "iku", "to go", word2_parts))
+    conn.execute("INSERT INTO words (spanish, pronunciation, english, parts) VALUES (?, ?, ?, ?)",
+                 ("ir", "EER", "to go", word2_parts))
     
     # Add word-group relationships
     conn.execute("INSERT INTO word_groups (word_id, group_id) VALUES (1, 1)")

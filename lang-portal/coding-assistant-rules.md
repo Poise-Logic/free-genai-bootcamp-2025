@@ -69,8 +69,8 @@ Web application for Spanish language learning that:
   - Flask-CORS for cross-origin requests
   - SQLite3 database (words.db)
   - Pytest for testing
+  - uv for Python package management and command execution
   - Git/GitHub for version control
-  - uv for Python package management (replacing pip)
 
 ### Frontend Structure
 - Use functional components with React hooks
@@ -88,8 +88,11 @@ Web application for Spanish language learning that:
 - Implement database migrations
 - Follow RESTful API patterns
 - Handle CORS with Flask-CORS middleware
-- uv for Python package management (replacing pip)
-  
+- Use uv commands for Python operations:
+  - Database setup: `uv run -m invoke init-db`
+  - Running the app: `uv run app.py`
+  - Note: `uv run` auto-detects the appropriate virtual environment without requiring manual activation
+
 ### State Management
 - Use React Context for global state when needed
 - Implement proper state persistence for user preferences

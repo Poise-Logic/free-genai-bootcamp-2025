@@ -13,21 +13,21 @@ def test_get_group_words_raw_success(client, app):
     # Check structure of the first word
     word = data['words'][0]
     assert 'id' in word
-    assert 'kanji' in word
-    assert 'romaji' in word
+    assert 'spanish' in word
+    assert 'pronunciation' in word
     assert 'english' in word
     assert 'parts' in word
     assert isinstance(word['parts'], list)
     
     # Check specific values
-    assert word['kanji'] == '払う'
-    assert word['romaji'] == 'harau'
+    assert word['spanish'] == 'pagar'
+    assert word['pronunciation'] == 'pah-GAR'
     assert word['english'] == 'to pay'
     assert len(word['parts']) == 2
-    assert word['parts'][0]['kanji'] == '払'
-    assert word['parts'][0]['romaji'] == ['ha', 'ra']
-    assert word['parts'][1]['kanji'] == 'う'
-    assert word['parts'][1]['romaji'] == ['u']
+    assert word['parts'][0]['spanish'] == 'pag'
+    assert word['parts'][0]['pronunciation'] == ['pah', 'g']
+    assert word['parts'][1]['spanish'] == 'ar'
+    assert word['parts'][1]['pronunciation'] == ['ar']
 
 
 def test_get_group_words_raw_group_not_found(client, app):

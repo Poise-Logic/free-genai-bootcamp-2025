@@ -165,7 +165,7 @@ def load(app):
         JOIN word_review_items wri ON wri.word_id = w.id
         WHERE wri.study_session_id = ?
         GROUP BY w.id
-        ORDER BY w.kanji
+        ORDER BY w.spanish
         LIMIT ? OFFSET ?
       ''', (id, per_page, offset))
       
@@ -194,8 +194,8 @@ def load(app):
         },
         'words': [{
           'id': word['id'],
-          'kanji': word['kanji'],
-          'romaji': word['romaji'],
+          'spanish': word['spanish'],
+          'pronunciation': word['pronunciation'],
           'english': word['english'],
           'correct_count': word['session_correct_count'],
           'wrong_count': word['session_wrong_count']

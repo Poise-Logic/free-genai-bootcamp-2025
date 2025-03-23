@@ -1,10 +1,11 @@
 import sqlite3
 import json
+import os
 from flask import g
 
 class Db:
   def __init__(self, database='words.db'):
-    self.database = database
+    self.database = os.environ.get('DATABASE_PATH', database)
     self.connection = None
 
   def get(self):
@@ -84,8 +85,8 @@ class Db:
       for word in words:
         # Insert the word into the words table
         cursor.execute('''
-          INSERT INTO words (kanji, romaji, english, parts) VALUES (?, ?, ?, ?)
-        ''', (word['kanji'], word['romaji'], word['english'], json.dumps(word['parts'])))
+          INSERT INTO words (spanish, pronunciation, english, parts) VALUES (?, ?, ?, ?)
+        ''', (word['spanish'], word['pronunciation'], word['english'], json.dumps(word['parts'])))
         
         # Get the last inserted word's ID
         word_id = cursor.lastrowid

@@ -9,6 +9,7 @@ A language learning school wants to build a prototype of a Spanish language lear
 ## Technical Requirements
 
 - Python as the programming language
+- uv for Python package management and command execution
 - Flask as the web framework
 - Flask-CORS for handling cross-origin requests
 - Pytest for testing

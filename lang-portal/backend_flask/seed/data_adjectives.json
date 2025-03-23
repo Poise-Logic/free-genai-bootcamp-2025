@@ -1,604 +1,590 @@
 [
   {
-    "kanji": "いい",
-    "romaji": "ii",
+    "spanish": "bueno",
+    "pronunciation": "BWEH-no",
     "english": "good",
     "parts": [
-      { "kanji": "い", "romaji": ["i"] },
-      { "kanji": "い", "romaji": ["i"] }
+      { "spanish": "bue", "pronunciation": "BWEH" },
+      { "spanish": "no", "pronunciation": "no" }
     ]
   },
   {
-    "kanji": "良い",
-    "romaji": "yoi",
-    "english": "good",
-    "parts": [
-      { "kanji": "良", "romaji": ["yo"] },
-      { "kanji": "い", "romaji": ["i"] }
-    ]
-  },
-  {
-    "kanji": "古い",
-    "romaji": "furui",
-    "english": "old",
-    "parts": [
-      { "kanji": "古", "romaji": ["fu", "ru"] },
-      { "kanji": "い", "romaji": ["i"] }
-    ]
-  },
-  {
-    "kanji": "忙しい",
-    "romaji": "isogashii",
-    "english": "busy",
-    "parts": [
-      { "kanji": "忙", "romaji": ["i","so","ga"] },
-      { "kanji": "し", "romaji": ["shi"] },
-      { "kanji": "い", "romaji": ["i"] }
-    ]
-  },
-  {
-    "kanji": "新しい",
-    "romaji": "atarashii",
-    "english": "new",
-    "parts": [
-      { "kanji": "新", "romaji": ["a","ta","ra"] },
-      { "kanji": "し", "romaji": ["shi"] },
-      { "kanji": "い", "romaji": ["i"] }
-    ]
-  },
-  {
-    "kanji": "悪い",
-    "romaji": "warui",
+    "spanish": "malo",
+    "pronunciation": "MAH-lo",
     "english": "bad",
     "parts": [
-      { "kanji": "悪", "romaji": ["wa","ru"] },
-      { "kanji": "い", "romaji": ["i"] }
+      { "spanish": "ma", "pronunciation": "MAH" },
+      { "spanish": "lo", "pronunciation": "lo" }
     ]
   },
   {
-    "kanji": "悲しい",
-    "romaji": "kanashii",
-    "english": "sad",
+    "spanish": "grande",
+    "pronunciation": "GRAHN-deh",
+    "english": "big",
     "parts": [
-      { "kanji": "悲", "romaji": ["ka","na"] },
-      { "kanji": "し", "romaji": ["shi"] },
-      { "kanji": "い", "romaji": ["i"] }
+      { "spanish": "gran", "pronunciation": "GRAHN" },
+      { "spanish": "de", "pronunciation": "deh" }
     ]
   },
   {
-    "kanji": "嬉しい",
-    "romaji": "ureshii",
-    "english": "glad",
-    "parts": [
-      { "kanji": "嬉", "romaji": ["u","re"] },
-      { "kanji": "し", "romaji": ["shi"] },
-      { "kanji": "い", "romaji": ["i"] }
-    ]
-  },
-  {
-    "kanji": "太い",
-    "romaji": "futoi",
-    "english": "fat",
-    "parts": [
-      { "kanji": "太", "romaji": ["fu","to"] },
-      { "kanji": "い", "romaji": ["i"] }
-    ]
-  },
-  {
-    "kanji": "細い",
-    "romaji": "hosoi",
-    "english": "thin",
-    "parts": [
-      { "kanji": "細", "romaji": ["ho","so"] },
-      { "kanji": "い", "romaji": ["i"] }
-    ]
-  },
-  {
-    "kanji": "面白い",
-    "romaji": "omoshiroi",
-    "english": "interesting",
-    "parts": [
-      { "kanji": "面", "romaji": ["o","mo"] },
-      { "kanji": "白", "romaji": ["shi","ro"] },
-      { "kanji": "い", "romaji": ["i"] }
-    ]
-  },
-  {
-    "kanji": "同じ",
-    "romaji": "onaji",
-    "english": "same",
-    "parts": [
-      { "kanji": "同", "romaji": ["o","na"] },
-      { "kanji": "じ", "romaji": ["ji"] }
-    ]
-  },
-  {
-    "kanji": "汚い",
-    "romaji": "kitanai",
-    "english": "dirty",
-    "parts": [
-      { "kanji": "汚", "romaji": ["ki","ta","na"] },
-      { "kanji": "い", "romaji": ["i"] }
-    ]
-  },
-  {
-    "kanji": "綺麗",
-    "romaji": "kirei",
-    "english": "pretty",
-    "parts": [
-      { "kanji": "綺", "romaji": ["ki"] },
-      { "kanji": "麗", "romaji": ["rei"] }
-    ]
-  },
-  {
-    "kanji": "暑い",
-    "romaji": "atsui",
-    "english": "hot",
-    "parts": [
-      { "kanji": "暑", "romaji": ["a","tsu"] },
-      { "kanji": "い", "romaji": ["i"] }
-    ]
-  },
-  {
-    "kanji": "寒い",
-    "romaji": "samui",
-    "english": "cold",
-    "parts": [
-      { "kanji": "寒", "romaji": ["sa","mu"] },
-      { "kanji": "い", "romaji": ["i"] }
-    ]
-  },
-  {
-    "kanji": "好き",
-    "romaji": "suki",
-    "english": "to like",
-    "parts": [
-      { "kanji": "好", "romaji": ["su"] },
-      { "kanji": "き", "romaji": ["ki"] }
-    ]
-  },
-  {
-    "kanji": "涼しい",
-    "romaji": "suzushii",
-    "english": "cool",
-    "parts": [
-      { "kanji": "涼", "romaji": ["su","zu"] },
-      { "kanji": "し", "romaji": ["shi"] },
-      { "kanji": "い", "romaji": ["i"] }
-    ]
-  },
-  {
-    "kanji": "おいしい",
-    "romaji": "oishii",
-    "english": "tasty",
-    "parts": [
-      { "kanji": "お", "romaji": ["o"] },
-      { "kanji": "い", "romaji": ["i"] },
-      { "kanji": "し", "romaji": ["shi"] },
-      { "kanji": "い", "romaji": ["i"] }
-    ]
-  },
-  {
-    "kanji": "大好き",
-    "romaji": "daisuki",
-    "english": "to love",
-    "parts": [
-      { "kanji": "大", "romaji": ["dai"] },
-      { "kanji": "好", "romaji": ["su"] },
-      { "kanji": "き", "romaji": ["ki"] }
-    ]
-  },
-  {
-    "kanji": "辛い",
-    "romaji": "karai",
-    "english": "spicy",
-    "parts": [
-      { "kanji": "辛", "romaji": ["ka","ra"] },
-      { "kanji": "い", "romaji": ["i"] }
-    ]
-  },
-  {
-    "kanji": "大味",
-    "romaji": "ooaji",
-    "english": "bland",
-    "parts": [
-      { "kanji": "大", "romaji": ["o","o"] },
-      { "kanji": "味", "romaji": ["a","ji"] }
-    ]
-  },
-  {
-    "kanji": "凄い",
-    "romaji": "sugoi",
-    "english": "awesome",
-    "parts": [
-      { "kanji": "凄", "romaji": ["su","go"] },
-      { "kanji": "い", "romaji": ["i"] }
-    ]
-  },
-  {
-    "kanji": "素晴らしい",
-    "romaji": "subarashii",
-    "english": "wonderful",
-    "parts": [
-      { "kanji": "素", "romaji": ["su"] },
-      { "kanji": "晴", "romaji": ["ba"] },
-      { "kanji": "ら", "romaji": ["ra"] },
-      { "kanji": "し", "romaji": ["shi"] },
-      { "kanji": "い", "romaji": ["i"] }
-    ]
-  },
-  {
-    "kanji": "狭い",
-    "romaji": "semai",
-    "english": "narrow",
-    "parts": [
-      { "kanji": "狭", "romaji": ["se","ma"] },
-      { "kanji": "い", "romaji": ["i"] }
-    ]
-  },
-  {
-    "kanji": "優しい",
-    "romaji": "yasashii",
-    "english": "kind",
-    "parts": [
-      { "kanji": "優", "romaji": ["ya","sa"] },
-      { "kanji": "し", "romaji": ["shi"] },
-      { "kanji": "い", "romaji": ["i"] }
-    ]
-  },
-  {
-    "kanji": "近い",
-    "romaji": "chikai",
-    "english": "near; close",
-    "parts": [
-      { "kanji": "近", "romaji": ["chi","ka"] },
-      { "kanji": "い", "romaji": ["i"] }
-    ]
-  },
-  {
-    "kanji": "詰らない",
-    "romaji": "tsumaranai",
-    "english": "boring",
-    "parts": [
-      { "kanji": "詰", "romaji": ["tsu","ma"] },
-      { "kanji": "ら", "romaji": ["ra"] },
-      { "kanji": "な", "romaji": ["na"] },
-      { "kanji": "い", "romaji": ["i"] }
-    ]
-  },
-  {
-    "kanji": "遠い",
-    "romaji": "tooi",
-    "english": "far",
-    "parts": [
-      { "kanji": "遠", "romaji": ["to","o"] },
-      { "kanji": "い", "romaji": ["i"] }
-    ]
-  },
-  {
-    "kanji": "有名",
-    "romaji": "yuumei",
-    "english": "famous",
-    "parts": [
-      { "kanji": "有", "romaji": ["yu","u"] },
-      { "kanji": "名", "romaji": ["me","i"] }
-    ]
-  },
-  {
-    "kanji": "長い",
-    "romaji": "nagai",
-    "english": "long",
-    "parts": [
-      { "kanji": "長", "romaji": ["na","ga"] },
-      { "kanji": "い", "romaji": ["i"] }
-    ]
-  },
-  {
-    "kanji": "広い",
-    "romaji": "hiroi",
-    "english": "wide",
-    "parts": [
-      { "kanji": "広", "romaji": ["hi","ro"] },
-      { "kanji": "い", "romaji": ["i"] }
-    ]
-  },
-  {
-    "kanji": "低い",
-    "romaji": "hikui",
-    "english": "low",
-    "parts": [
-      { "kanji": "低", "romaji": ["hi","ku"] },
-      { "kanji": "い", "romaji": ["i"] }
-    ]
-  },
-  {
-    "kanji": "変",
-    "romaji": "hen",
-    "english": "strange",
-    "parts": [
-      { "kanji": "変", "romaji": ["he","n"] }
-    ]
-  },
-  {
-    "kanji": "短い",
-    "romaji": "mijikai",
-    "english": "short",
-    "parts": [
-      { "kanji": "短", "romaji": ["mi","ji","ka"] },
-      { "kanji": "い", "romaji": ["i"] }
-    ]
-  },
-  {
-    "kanji": "高い",
-    "romaji": "takai",
-    "english": "expensive",
-    "parts": [
-      { "kanji": "高", "romaji": ["ta","ka"] },
-      { "kanji": "い", "romaji": ["i"] }
-    ]
-  },
-  {
-    "kanji": "小さい",
-    "romaji": "chisai",
+    "spanish": "pequeño",
+    "pronunciation": "peh-KEH-nyo",
     "english": "small",
     "parts": [
-      { "kanji": "小", "romaji": ["chi"] },
-      { "kanji": "さ", "romaji": ["sa"] },
-      { "kanji": "い", "romaji": ["i"] }
+      { "spanish": "pe", "pronunciation": "peh" },
+      { "spanish": "que", "pronunciation": "KEH" },
+      { "spanish": "ño", "pronunciation": "nyo" }
     ]
   },
   {
-    "kanji": "安い",
-    "romaji": "yasui",
-    "english": "cheap",
+    "spanish": "alto",
+    "pronunciation": "AHL-to",
+    "english": "tall/high",
     "parts": [
-      { "kanji": "安", "romaji": ["ya","su"] },
-      { "kanji": "い", "romaji": ["i"] }
+      { "spanish": "al", "pronunciation": "AHL" },
+      { "spanish": "to", "pronunciation": "to" }
     ]
   },
   {
-    "kanji": "大きい",
-    "romaji": "ookii",
-    "english": "large",
+    "spanish": "bajo",
+    "pronunciation": "BAH-ho",
+    "english": "short/low",
     "parts": [
-      { "kanji": "大", "romaji": ["o","o"] },
-      { "kanji": "き", "romaji": ["ki"] },
-      { "kanji": "い", "romaji": ["i"] }
+      { "spanish": "ba", "pronunciation": "BAH" },
+      { "spanish": "jo", "pronunciation": "ho" }
     ]
   },
   {
-    "kanji": "楽しい",
-    "romaji": "tanoshii",
-    "english": "fun",
+    "spanish": "nuevo",
+    "pronunciation": "NWEH-bo",
+    "english": "new",
     "parts": [
-      { "kanji": "楽", "romaji": ["ta","no"] },
-      { "kanji": "し", "romaji": ["shi"] },
-      { "kanji": "い", "romaji": ["i"] }
+      { "spanish": "nue", "pronunciation": "NWEH" },
+      { "spanish": "vo", "pronunciation": "bo" }
     ]
   },
   {
-    "kanji": "強い",
-    "romaji": "tsuyoi",
+    "spanish": "viejo",
+    "pronunciation": "bee-EH-ho",
+    "english": "old",
+    "parts": [
+      { "spanish": "vie", "pronunciation": "bee-EH" },
+      { "spanish": "jo", "pronunciation": "ho" }
+    ]
+  },
+  {
+    "spanish": "bonito",
+    "pronunciation": "boh-NEE-toh",
+    "english": "pretty",
+    "parts": [
+      { "spanish": "bo", "pronunciation": "boh" },
+      { "spanish": "ni", "pronunciation": "NEE" },
+      { "spanish": "to", "pronunciation": "toh" }
+    ]
+  },
+  {
+    "spanish": "feo",
+    "pronunciation": "FEH-oh",
+    "english": "ugly",
+    "parts": [
+      { "spanish": "fe", "pronunciation": "FEH" },
+      { "spanish": "o", "pronunciation": "oh" }
+    ]
+  },
+  {
+    "spanish": "feliz",
+    "pronunciation": "feh-LEES",
+    "english": "happy",
+    "parts": [
+      { "spanish": "fe", "pronunciation": "feh" },
+      { "spanish": "liz", "pronunciation": "LEES" }
+    ]
+  },
+  {
+    "spanish": "triste",
+    "pronunciation": "TREES-teh",
+    "english": "sad",
+    "parts": [
+      { "spanish": "tris", "pronunciation": "TREES" },
+      { "spanish": "te", "pronunciation": "teh" }
+    ]
+  },
+  {
+    "spanish": "rico",
+    "pronunciation": "REE-ko",
+    "english": "rich/delicious",
+    "parts": [
+      { "spanish": "ri", "pronunciation": "REE" },
+      { "spanish": "co", "pronunciation": "ko" }
+    ]
+  },
+  {
+    "spanish": "pobre",
+    "pronunciation": "POH-breh",
+    "english": "poor",
+    "parts": [
+      { "spanish": "po", "pronunciation": "POH" },
+      { "spanish": "bre", "pronunciation": "breh" }
+    ]
+  },
+  {
+    "spanish": "largo",
+    "pronunciation": "LAR-go",
+    "english": "long",
+    "parts": [
+      { "spanish": "lar", "pronunciation": "LAR" },
+      { "spanish": "go", "pronunciation": "go" }
+    ]
+  },
+  {
+    "spanish": "corto",
+    "pronunciation": "KOR-to",
+    "english": "short",
+    "parts": [
+      { "spanish": "cor", "pronunciation": "KOR" },
+      { "spanish": "to", "pronunciation": "to" }
+    ]
+  },
+  {
+    "spanish": "ancho",
+    "pronunciation": "AHN-cho",
+    "english": "wide",
+    "parts": [
+      { "spanish": "an", "pronunciation": "AHN" },
+      { "spanish": "cho", "pronunciation": "cho" }
+    ]
+  },
+  {
+    "spanish": "estrecho",
+    "pronunciation": "es-TREH-cho",
+    "english": "narrow",
+    "parts": [
+      { "spanish": "es", "pronunciation": "es" },
+      { "spanish": "tre", "pronunciation": "TREH" },
+      { "spanish": "cho", "pronunciation": "cho" }
+    ]
+  },
+  {
+    "spanish": "gordo",
+    "pronunciation": "GOR-doh",
+    "english": "fat",
+    "parts": [
+      { "spanish": "gor", "pronunciation": "GOR" },
+      { "spanish": "do", "pronunciation": "doh" }
+    ]
+  },
+  {
+    "spanish": "delgado",
+    "pronunciation": "dehl-GAH-doh",
+    "english": "thin",
+    "parts": [
+      { "spanish": "del", "pronunciation": "dehl" },
+      { "spanish": "ga", "pronunciation": "GAH" },
+      { "spanish": "do", "pronunciation": "doh" }
+    ]
+  },
+  {
+    "spanish": "fuerte",
+    "pronunciation": "FWEHR-teh",
     "english": "strong",
     "parts": [
-      { "kanji": "強", "romaji": ["tsu","yo"] },
-      { "kanji": "い", "romaji": ["i"] }
+      { "spanish": "fuer", "pronunciation": "FWEHR" },
+      { "spanish": "te", "pronunciation": "teh" }
     ]
   },
   {
-    "kanji": "弱い",
-    "romaji": "yowai",
+    "spanish": "débil",
+    "pronunciation": "DEH-beel",
     "english": "weak",
     "parts": [
-      { "kanji": "弱", "romaji": ["yo","wa"] },
-      { "kanji": "い", "romaji": ["i"] }
+      { "spanish": "dé", "pronunciation": "DEH" },
+      { "spanish": "bil", "pronunciation": "beel" }
     ]
   },
   {
-    "kanji": "明るい",
-    "romaji": "akarui",
-    "english": "bright",
+    "spanish": "rápido",
+    "pronunciation": "RAH-pee-doh",
+    "english": "fast",
     "parts": [
-      { "kanji": "明", "romaji": ["a","ka"] },
-      { "kanji": "る", "romaji": ["ru"] },
-      { "kanji": "い", "romaji": ["i"] }
+      { "spanish": "rá", "pronunciation": "RAH" },
+      { "spanish": "pi", "pronunciation": "pee" },
+      { "spanish": "do", "pronunciation": "doh" }
     ]
   },
   {
-    "kanji": "暗い",
-    "romaji": "kurai",
-    "english": "dark",
-    "parts": [
-      { "kanji": "暗", "romaji": ["ku","ra"] },
-      { "kanji": "い", "romaji": ["i"] }
-    ]
-  },
-  {
-    "kanji": "重い",
-    "romaji": "omoi",
-    "english": "heavy",
-    "parts": [
-      { "kanji": "重", "romaji": ["o","mo"] },
-      { "kanji": "い", "romaji": ["i"] }
-    ]
-  },
-  {
-    "kanji": "軽い",
-    "romaji": "karui",
-    "english": "light",
-    "parts": [
-      { "kanji": "軽", "romaji": ["ka","ru"] },
-      { "kanji": "い", "romaji": ["i"] }
-    ]
-  },
-  {
-    "kanji": "早い",
-    "romaji": "hayai",
-    "english": "early",
-    "parts": [
-      { "kanji": "早", "romaji": ["ha","ya"] },
-      { "kanji": "い", "romaji": ["i"] }
-    ]
-  },
-  {
-    "kanji": "遅い",
-    "romaji": "osoi",
+    "spanish": "lento",
+    "pronunciation": "LEHN-toh",
     "english": "slow",
     "parts": [
-      { "kanji": "遅", "romaji": ["o","so"] },
-      { "kanji": "い", "romaji": ["i"] }
+      { "spanish": "len", "pronunciation": "LEHN" },
+      { "spanish": "to", "pronunciation": "toh" }
     ]
   },
   {
-    "kanji": "痛い",
-    "romaji": "itai",
-    "english": "painful",
-    "parts": [
-      { "kanji": "痛", "romaji": ["i","ta"] },
-      { "kanji": "い", "romaji": ["i"] }
-    ]
-  },
-  {
-    "kanji": "広がった",
-    "romaji": "hirogatta",
-    "english": "spread out",
-    "parts": [ 
-      { "kanji": "広", "romaji": ["hi","ro"] },
-      { "kanji": "が", "romaji": ["ga"] },
-      { "kanji": "っ", "romaji": ["t"] },
-      { "kanji": "た", "romaji": ["ta"] }
-    ]
-  },
-  {
-    "kanji": "苦い",
-    "romaji": "nigai",
-    "english": "bitter",
-    "parts": [
-      { "kanji": "苦", "romaji": ["ni","ga"] },
-      { "kanji": "い", "romaji": ["i"] }
-    ]
-  },
-  {
-    "kanji": "甘い",
-    "romaji": "amai",
-    "english": "sweet",
-    "parts": [
-      { "kanji": "甘", "romaji": ["a","ma"] },
-      { "kanji": "い", "romaji": ["i"] }
-    ]
-  },
-  {
-    "kanji": "固い",
-    "romaji": "katai",
-    "english": "hard",
-    "parts": [
-      { "kanji": "固", "romaji": ["ka","ta"] },
-      { "kanji": "い", "romaji": ["i"] }
-    ]
-  },
-  {
-    "kanji": "柔らかい",
-    "romaji": "yawarakai",
-    "english": "soft",
-    "parts": [
-      { "kanji": "柔", "romaji": ["ya","wa"] },
-      { "kanji": "ら", "romaji": ["ra"] },
-      { "kanji": "か", "romaji": ["ka"] },
-      { "kanji": "い", "romaji": ["i"] }
-    ]
-  },
-  {
-    "kanji": "珍しい",
-    "romaji": "mezurashii",
-    "english": "rare",
-    "parts": [
-      { "kanji": "珍", "romaji": ["me","zu","ra"] },
-      { "kanji": "し", "romaji": ["shi"] },
-      { "kanji": "い", "romaji": ["i"] }
-    ]
-  },
-  {
-    "kanji": "怖い",
-    "romaji": "kowai",
-    "english": "scary",
-    "parts": [
-      { "kanji": "怖", "romaji": ["ko","wa"] },
-      { "kanji": "い", "romaji": ["i"] }
-    ]
-  },
-  {
-    "kanji": "煩い",
-    "romaji": "urusai",
-    "english": "noisy",
-    "parts": [
-      { "kanji": "煩", "romaji": ["u","ru","sa"] },
-      { "kanji": "い", "romaji": ["i"] }
-    ]
-  },
-  {
-    "kanji": "静か",
-    "romaji": "shizuka",
-    "english": "quiet",
-    "parts": [
-      { "kanji": "静", "romaji": ["shi","zu"] },
-      { "kanji": "か", "romaji": ["ka"] }
-    ]
-  },
-  {
-    "kanji": "暑い",
-    "romaji": "atsui",
+    "spanish": "caliente",
+    "pronunciation": "kah-lee-EHN-teh",
     "english": "hot",
     "parts": [
-      { "kanji": "暑", "romaji": ["a","tsu"] },
-      { "kanji": "い", "romaji": ["i"] }
+      { "spanish": "ca", "pronunciation": "kah" },
+      { "spanish": "lien", "pronunciation": "lee-EHN" },
+      { "spanish": "te", "pronunciation": "teh" }
     ]
   },
   {
-    "kanji": "冷たい",
-    "romaji": "tsumetai",
+    "spanish": "frío",
+    "pronunciation": "FREE-oh",
     "english": "cold",
     "parts": [
-      { "kanji": "冷", "romaji": ["ts","u","me"] },
-      { "kanji": "た", "romaji": ["ta"] },
-      { "kanji": "い", "romaji": ["i"] }
+      { "spanish": "frí", "pronunciation": "FREE" },
+      { "spanish": "o", "pronunciation": "oh" }
     ]
   },
   {
-    "kanji": "汚れた",
-    "romaji": "yogoreta",
-    "english": "dirty",
-    "parts": [
-      { "kanji": "汚", "romaji": ["yo","go"] },
-      { "kanji": "れ", "romaji": ["re"] },
-      { "kanji": "た", "romaji": ["ta"] }
-    ]
-  },
-  {
-    "kanji": "美しい",
-    "romaji": "utsukushii",
-    "english": "beautiful",
-    "parts": [
-      { "kanji": "美", "romaji": ["u","tsu","ku"] },
-      { "kanji": "し", "romaji": ["shi"] },
-      { "kanji": "い", "romaji": ["i"] }
-    ]
-  },
-  {
-    "kanji": "楽な",
-    "romaji": "rakuna",
+    "spanish": "fácil",
+    "pronunciation": "FAH-seel",
     "english": "easy",
     "parts": [
-      { "kanji": "楽", "romaji": ["ra", "ku"] },
-      { "kanji": "な", "romaji": ["na"] }
+      { "spanish": "fá", "pronunciation": "FAH" },
+      { "spanish": "cil", "pronunciation": "seel" }
     ]
   },
   {
-    "kanji": "偉い",
-    "romaji": "erai",
-    "english": "great",
+    "spanish": "difícil",
+    "pronunciation": "dee-FEE-seel",
+    "english": "difficult",
     "parts": [
-      { "kanji": "偉", "romaji": ["e","ra"] },
-      { "kanji": "い", "romaji": ["i"] }
+      { "spanish": "di", "pronunciation": "dee" },
+      { "spanish": "fí", "pronunciation": "FEE" },
+      { "spanish": "cil", "pronunciation": "seel" }
+    ]
+  },
+  {
+    "spanish": "limpio",
+    "pronunciation": "LEEM-pee-oh",
+    "english": "clean",
+    "parts": [
+      { "spanish": "lim", "pronunciation": "LEEM" },
+      { "spanish": "pi", "pronunciation": "pee" },
+      { "spanish": "o", "pronunciation": "oh" }
+    ]
+  },
+  {
+    "spanish": "sucio",
+    "pronunciation": "SOO-see-oh",
+    "english": "dirty",
+    "parts": [
+      { "spanish": "su", "pronunciation": "SOO" },
+      { "spanish": "ci", "pronunciation": "see" },
+      { "spanish": "o", "pronunciation": "oh" }
+    ]
+  },
+  {
+    "spanish": "lleno",
+    "pronunciation": "YEH-noh",
+    "english": "full",
+    "parts": [
+      { "spanish": "lle", "pronunciation": "YEH" },
+      { "spanish": "no", "pronunciation": "noh" }
+    ]
+  },
+  {
+    "spanish": "vacío",
+    "pronunciation": "bah-SEE-oh",
+    "english": "empty",
+    "parts": [
+      { "spanish": "va", "pronunciation": "bah" },
+      { "spanish": "cí", "pronunciation": "SEE" },
+      { "spanish": "o", "pronunciation": "oh" }
+    ]
+  },
+  {
+    "spanish": "viejo",
+    "pronunciation": "bee-EH-ho",
+    "english": "old (thing)",
+    "parts": [
+      { "spanish": "vie", "pronunciation": "bee-EH" },
+      { "spanish": "jo", "pronunciation": "ho" }
+    ]
+  },
+  {
+    "spanish": "joven",
+    "pronunciation": "HO-behn",
+    "english": "young",
+    "parts": [
+      { "spanish": "jo", "pronunciation": "HO" },
+      { "spanish": "ven", "pronunciation": "behn" }
+    ]
+  },
+  {
+    "spanish": "abierto",
+    "pronunciation": "ah-bee-EHR-toh",
+    "english": "open",
+    "parts": [
+      { "spanish": "ab", "pronunciation": "ah-b" },
+      { "spanish": "ier", "pronunciation": "ee-EHR" },
+      { "spanish": "to", "pronunciation": "toh" }
+    ]
+  },
+  {
+    "spanish": "cerrado",
+    "pronunciation": "seh-RRAH-doh",
+    "english": "closed",
+    "parts": [
+      { "spanish": "ce", "pronunciation": "seh" },
+      { "spanish": "rra", "pronunciation": "RRAH" },
+      { "spanish": "do", "pronunciation": "doh" }
+    ]
+  },
+  {
+    "spanish": "caro",
+    "pronunciation": "KAH-roh",
+    "english": "expensive",
+    "parts": [
+      { "spanish": "ca", "pronunciation": "KAH" },
+      { "spanish": "ro", "pronunciation": "roh" }
+    ]
+  },
+  {
+    "spanish": "barato",
+    "pronunciation": "bah-RAH-toh",
+    "english": "cheap",
+    "parts": [
+      { "spanish": "ba", "pronunciation": "bah" },
+      { "spanish": "ra", "pronunciation": "RAH" },
+      { "spanish": "to", "pronunciation": "toh" }
+    ]
+  },
+  {
+    "spanish": "divertido",
+    "pronunciation": "dee-behr-TEE-doh",
+    "english": "fun",
+    "parts": [
+      { "spanish": "di", "pronunciation": "dee" },
+      { "spanish": "ver", "pronunciation": "behr" },
+      { "spanish": "ti", "pronunciation": "TEE" },
+      { "spanish": "do", "pronunciation": "doh" }
+    ]
+  },
+  {
+    "spanish": "aburrido",
+    "pronunciation": "ah-boo-RREE-doh",
+    "english": "boring",
+    "parts": [
+      { "spanish": "a", "pronunciation": "ah" },
+      { "spanish": "bu", "pronunciation": "boo" },
+      { "spanish": "rri", "pronunciation": "RREE" },
+      { "spanish": "do", "pronunciation": "doh" }
+    ]
+  },
+  {
+    "spanish": "inteligente",
+    "pronunciation": "een-teh-lee-HEHN-teh",
+    "english": "intelligent",
+    "parts": [
+      { "spanish": "in", "pronunciation": "een" },
+      { "spanish": "te", "pronunciation": "teh" },
+      { "spanish": "li", "pronunciation": "lee" },
+      { "spanish": "gen", "pronunciation": "HEHN" },
+      { "spanish": "te", "pronunciation": "teh" }
+    ]
+  },
+  {
+    "spanish": "tonto",
+    "pronunciation": "TOHN-toh",
+    "english": "silly/foolish",
+    "parts": [
+      { "spanish": "ton", "pronunciation": "TOHN" },
+      { "spanish": "to", "pronunciation": "toh" }
+    ]
+  },
+  {
+    "spanish": "importante",
+    "pronunciation": "eem-pohr-TAHN-teh",
+    "english": "important",
+    "parts": [
+      { "spanish": "im", "pronunciation": "eem" },
+      { "spanish": "por", "pronunciation": "pohr" },
+      { "spanish": "tan", "pronunciation": "TAHN" },
+      { "spanish": "te", "pronunciation": "teh" }
+    ]
+  },
+  {
+    "spanish": "famoso",
+    "pronunciation": "fah-MOH-soh",
+    "english": "famous",
+    "parts": [
+      { "spanish": "fa", "pronunciation": "fah" },
+      { "spanish": "mo", "pronunciation": "MOH" },
+      { "spanish": "so", "pronunciation": "soh" }
+    ]
+  },
+  {
+    "spanish": "peligroso",
+    "pronunciation": "peh-lee-GROH-soh",
+    "english": "dangerous",
+    "parts": [
+      { "spanish": "pe", "pronunciation": "peh" },
+      { "spanish": "li", "pronunciation": "lee" },
+      { "spanish": "gro", "pronunciation": "GROH" },
+      { "spanish": "so", "pronunciation": "soh" }
+    ]
+  },
+  {
+    "spanish": "seguro",
+    "pronunciation": "seh-GOO-roh",
+    "english": "safe",
+    "parts": [
+      { "spanish": "se", "pronunciation": "seh" },
+      { "spanish": "gu", "pronunciation": "GOO" },
+      { "spanish": "ro", "pronunciation": "roh" }
+    ]
+  },
+  {
+    "spanish": "posible",
+    "pronunciation": "poh-SEE-bleh",
+    "english": "possible",
+    "parts": [
+      { "spanish": "po", "pronunciation": "poh" },
+      { "spanish": "si", "pronunciation": "SEE" },
+      { "spanish": "ble", "pronunciation": "bleh" }
+    ]
+  },
+  {
+    "spanish": "imposible",
+    "pronunciation": "eem-poh-SEE-bleh",
+    "english": "impossible",
+    "parts": [
+      { "spanish": "im", "pronunciation": "eem" },
+      { "spanish": "po", "pronunciation": "poh" },
+      { "spanish": "si", "pronunciation": "SEE" },
+      { "spanish": "ble", "pronunciation": "bleh" }
+    ]
+  },
+  {
+    "spanish": "sabroso",
+    "pronunciation": "sah-BROH-soh",
+    "english": "tasty",
+    "parts": [
+      { "spanish": "sa", "pronunciation": "sah" },
+      { "spanish": "bro", "pronunciation": "BROH" },
+      { "spanish": "so", "pronunciation": "soh" }
+    ]
+  },
+  {
+    "spanish": "amargo",
+    "pronunciation": "ah-MAR-goh",
+    "english": "bitter",
+    "parts": [
+      { "spanish": "a", "pronunciation": "ah" },
+      { "spanish": "mar", "pronunciation": "MAR" },
+      { "spanish": "go", "pronunciation": "goh" }
+    ]
+  },
+  {
+    "spanish": "dulce",
+    "pronunciation": "DOOL-seh",
+    "english": "sweet",
+    "parts": [
+      { "spanish": "dul", "pronunciation": "DOOL" },
+      { "spanish": "ce", "pronunciation": "seh" }
+    ]
+  },
+  {
+    "spanish": "salado",
+    "pronunciation": "sah-LAH-doh",
+    "english": "salty",
+    "parts": [
+      { "spanish": "sa", "pronunciation": "sah" },
+      { "spanish": "la", "pronunciation": "LAH" },
+      { "spanish": "do", "pronunciation": "doh" }
+    ]
+  },
+  {
+    "spanish": "picante",
+    "pronunciation": "pee-KAHN-teh",
+    "english": "spicy",
+    "parts": [
+      { "spanish": "pi", "pronunciation": "pee" },
+      { "spanish": "can", "pronunciation": "KAHN" },
+      { "spanish": "te", "pronunciation": "teh" }
+    ]
+  },
+  {
+    "spanish": "seco",
+    "pronunciation": "SEH-koh",
+    "english": "dry",
+    "parts": [
+      { "spanish": "se", "pronunciation": "SEH" },
+      { "spanish": "co", "pronunciation": "koh" }
+    ]
+  },
+  {
+    "spanish": "mojado",
+    "pronunciation": "moh-HAH-doh",
+    "english": "wet",
+    "parts": [
+      { "spanish": "mo", "pronunciation": "moh" },
+      { "spanish": "ja", "pronunciation": "HAH" },
+      { "spanish": "do", "pronunciation": "doh" }
+    ]
+  },
+  {
+    "spanish": "duro",
+    "pronunciation": "DOO-roh",
+    "english": "hard",
+    "parts": [
+      { "spanish": "du", "pronunciation": "DOO" },
+      { "spanish": "ro", "pronunciation": "roh" }
+    ]
+  },
+  {
+    "spanish": "suave",
+    "pronunciation": "SWAH-beh",
+    "english": "soft",
+    "parts": [
+      { "spanish": "sua", "pronunciation": "SWAH" },
+      { "spanish": "ve", "pronunciation": "beh" }
+    ]
+  },
+  {
+    "spanish": "ruidoso",
+    "pronunciation": "rwee-DOH-soh",
+    "english": "noisy",
+    "parts": [
+      { "spanish": "rui", "pronunciation": "rwee" },
+      { "spanish": "do", "pronunciation": "DOH" },
+      { "spanish": "so", "pronunciation": "soh" }
+    ]
+  },
+  {
+    "spanish": "silencioso",
+    "pronunciation": "see-lehn-see-OH-soh",
+    "english": "quiet",
+    "parts": [
+      { "spanish": "si", "pronunciation": "see" },
+      { "spanish": "len", "pronunciation": "lehn" },
+      { "spanish": "cio", "pronunciation": "see-OH" },
+      { "spanish": "so", "pronunciation": "soh" }
+    ]
+  },
+  {
+    "spanish": "ocupado",
+    "pronunciation": "oh-koo-PAH-doh",
+    "english": "busy",
+    "parts": [
+      { "spanish": "o", "pronunciation": "oh" },
+      { "spanish": "cu", "pronunciation": "koo" },
+      { "spanish": "pa", "pronunciation": "PAH" },
+      { "spanish": "do", "pronunciation": "doh" }
+    ]
+  },
+  {
+    "spanish": "libre",
+    "pronunciation": "LEE-breh",
+    "english": "free",
+    "parts": [
+      { "spanish": "li", "pronunciation": "LEE" },
+      { "spanish": "bre", "pronunciation": "breh" }
     ]
   }
-]
+] 

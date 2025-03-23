@@ -1,2 +1,5 @@
 # Windsurf specific
 .windsurfrules
+
+# Cursor editor files
+.cursor/
