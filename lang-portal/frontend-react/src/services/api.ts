@@ -214,12 +214,6 @@ export async function fetchStudySessions(
   return response.json();
 }
 
-export interface StudySessionsResponse {
-  study_sessions: StudySession[];
-  total_pages: number;
-  current_page: number;
-}
-
 export async function fetchGroupStudySessions(
   groupId: number,
   page: number = 1,
