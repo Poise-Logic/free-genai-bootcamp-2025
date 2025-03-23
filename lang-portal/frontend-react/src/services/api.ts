@@ -206,7 +206,7 @@ export async function fetchStudySessions(
   perPage: number = 10
 ): Promise<StudySessionsResponse> {
   const response = await fetch(
-    `${API_BASE_URL}/api/study-sessions?page=${page}&per_page=${perPage}`
+    `${API_BASE_URL}/api/study_sessions?page=${page}&per_page=${perPage}`
   );
   if (!response.ok) {
     throw new Error('Failed to fetch study sessions');
@@ -237,7 +237,7 @@ export async function fetchGroupStudySessions(
 
 // Dashboard API
 export const fetchRecentStudySession = async (): Promise<RecentSession | null> => {
-  const response = await fetch(`${API_BASE_URL}/dashboard/recent-session`);
+  const response = await fetch(`${API_BASE_URL}/dashboard/recent_session`);
   if (!response.ok) {
     throw new Error('Failed to fetch recent session');
   }
