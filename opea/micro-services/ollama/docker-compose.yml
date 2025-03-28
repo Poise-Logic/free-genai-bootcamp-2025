@@ -1,0 +1,24 @@
+services:
+  ollama-server:
+    image: ollama/ollama
+    container_name: ollama-server
+    ports:
+      - ${LLM_ENDPOINT_PORT:-8008}:11434
+    volumes:
+      # Persistent model storage volume
+      # For Windows WSL users:
+      # - Replace '/mnt/c/Users/poiselogic/models_local/ollama_models' with your actual Windows user path
+      # - Example: '/mnt/c/Users/YourUsername/ollama_models'
+      # For Linux/Mac users:
+      # - Use a local path like './ollama_models' or '/home/yourusername/ollama_models'
+      - /mnt/c/Users/BrunoPaul/cs/models_local/ollama_models:/root/.ollama
+    environment:
+      no_proxy: ${no_proxy}
+      http_proxy: ${http_proxy}
+      https_proxy: ${https_proxy}
+      LLM_MODEL_ID: ${LLM_MODEL_ID}
+      host_ip: ${host_ip}
+
+networks:
+  default:
+    driver: bridge
